@@ -36,6 +36,9 @@ int main() {
 	cout << hypot(3, 4) << '\n';
 	cout << hypot(4, 5) << '\n';
 	cout << angle(50, 50) << '\n';
+	cout << angle(0, 50) << '\n';
+	cout << angle(50, 0) << '\n';
+
 	//	cout << fact(5) << '\n'; // 120 = 5 * 4 * 3 * 2 * 1
 	cout << sum(5, 9); // 5 + 6 + 7 + 8 + 9
 	cout << fact(5) << '\n';
