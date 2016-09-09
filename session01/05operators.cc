@@ -11,7 +11,7 @@ int main() {
 	cout << b / a << '\n';
 	cout << b % a << '\n'; // MOD  3 MOD 2 == 1
 	cout << -5 / 3 << '\n';
-
+	cout << -5 % 3 << '\n';
 	
 	
 	return 0;
