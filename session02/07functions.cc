@@ -8,21 +8,27 @@ int f(int x) {
 }
 //sqrt( )
 double hypotenuse(double a, double b) {
-
+	return sqrt(pow(a,2), b*b);
 }
 
-// DO NOT USE atn(y/x) ==> atn2(y, x)
+// DO NOT USE atan(y/x) ==> atan2(y, x)
 double angle(double x, double y) {
-
+	return atan2(y,x);
 
 }
 
 double fact(int n) {
-
+	double prod = 1;
+	for (int i = 1; i <= n; i++)
+		prod *= i;
+	return prod;
 }
 
 int sum(int a, int b) {
-
+	int s = 0;
+	for (int i = a; i <= b; i++)
+		s += i;
+	return s;
 }
 
 void hello() {
