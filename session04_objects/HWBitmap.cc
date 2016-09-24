@@ -1,0 +1,59 @@
+/*
+
+
+  Create a bitmap.  It can be fixed size (20,20) later it will be able to do any size
+  save to file (for now, ASCII)
+
+	bitmap should start with all zeros
+
+	lookup how to do ofstream to write a file
+	
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000000000000000000
+	00000001000000000000
+	00000111110000000000
+	00001111111000000000
+	00000111110000000000
+	00000001000000000000
+	00000000000000000000
+	00000000000000000000
+
+	ifstream to read a file (optional)
+
+
+	come up with a set of primitives to allow us to draw:
+
+	lines
+	rectangles
+	triangle
+	circle
+
+	data: hidden in the object
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+int main() {
+
+
+}
