@@ -1,4 +1,7 @@
-class ???;
+class Complex {
+
+
+};
 
 int main() {
 	const Complex c1; // (0,0)  (0 + 0i)
