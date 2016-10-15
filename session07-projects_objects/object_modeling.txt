@@ -1,0 +1,38 @@
+Write a list of classes
+Don't worry if there are too many
+Write down everything you think of
+
+
+Then, eliminate the ones you think make no sense.
+Once you are done, write a list of one-sentence definitions of what the class is supposed to do.
+If you cannot write a one-sentence definition.... if too much, your class is too complicated, break it up into smaller pieces
+If you cannot write one sentense describing it.... whydo you have it?
+
+Define public methods: (what should the class DO)
+
+
+Class: Document
+Purpose:
+
+
+Displayer
+Purpose: This class represents a single Document window displaying a document
+Purpose: Represent a single Document window displaying a document
+
+
+
+
+	Frame
+
+	Border
+
+	string
+	Font
+
+	Image
+
+Author
+	first name
+	last name
+	unique id
+	public key
