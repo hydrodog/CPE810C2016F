@@ -11,7 +11,9 @@ public:
 class B : public A {
 	int z; // private by default!
 public:
-	B() : z(2) { cout << "B!" << z; }
+	B() :z(2) { cout << "B!" << z; }
+	// this is the same as
+	//	B() : A(), z(2) { cout << "B!" << z; }
 	~B() { cout << "yo!"; }
 	void g() { cout << "test"; }
 };
