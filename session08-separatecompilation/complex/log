@@ -1,0 +1,26 @@
+# 1 "main.cc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "main.cc"
+# 1 "Complex.hh" 1
+namespace std {
+ class ostream&;
+};
+class Complex {
+private:
+ double re, im;
+public:
+ Complex(double r, double i);
+ friend Complex operator +(Complex a, Complex b);
+ friend Complex operator -(Complex a, Complex b);
+ friend double abs(Complex c);
+  static double abs(Complex c);
+ double abs() const;
+ friend ostream& operator <<(ostream& s, Complex c);
+};
+# 2 "main.cc" 2
+
+int main() {
+ Complex c1(1.0, 2.0);
+ cout << c1;
+}
