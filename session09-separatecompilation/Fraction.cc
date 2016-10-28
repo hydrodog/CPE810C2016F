@@ -5,6 +5,7 @@ Fraction::Fraction(int n, int d) : num(n), den(d) {
 	count++;
 }
 
+
 Fraction::~Fraction() {
 	count--;
 }
